@@ -65,8 +65,8 @@ export const footerConfig = {
     },
   ],
   contactInfo: {
-    address: "1061 Gradview Blvd., Kansas City, KS 66102 - US",
-    phone: "+1 (717) 621 9584, +1 (336) 392 6378",
+    address: "7305 Afton Rd, Woodbury, MN 55125",
+    phone: "(651) 204-3333",
   },
   socialMedia: [
     { icon: YoutubeIcon, label: "YouTube", href: "#" },
@@ -79,7 +79,9 @@ export const footerConfig = {
     links: [
       { label: "Terms Of Use", href: "/terms" },
       { label: "Privacy Policy", href: "/privacy" },
-      // { label: "Cookie Preferences", href: "/cookie" },
+      { label: "Cookie Preferences", href: "/cookie" },
     ],
+    additionalText:
+      "This site is protected by reCAPTCHA and the Google Privacy Policy & Terms Of Service apply.",
   },
 };
